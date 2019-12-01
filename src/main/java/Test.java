@@ -3,7 +3,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Test {
         public static void main(String[] args) throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver","D:\\BrowserDriver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","D:\\BrowserDrive\\chromedriver.exe");
             WebDriver driver = new ChromeDriver();
             driver.manage().window().maximize();
             driver.manage().deleteAllCookies();
